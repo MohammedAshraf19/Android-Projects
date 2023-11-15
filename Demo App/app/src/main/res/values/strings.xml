@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="notification">Notification</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="do_not_have_an_account_login">DO not have an account? LOGIN</string>
+    <string name="remember_me">Remember me</string>
+    <string name="login">Login</string>
+    <string name="login_with_google">Login with google</string>
+    <string name="login_with_facebook">Login with facebook</string>
+    <string name="do_not_have_an_account_sign_up">DO not have an account? SIGN UP</string>
+    <string-array name="countrySpinner">
+        <item>EGY</item>
+        <item>USA</item>
+        <item>CA</item>
+        <item>CL</item>
+        <item>CO</item>
+    </string-array>
+    <string-array name="roleSpinner">
+        <item>SuperAdmin</item>
+        <item>Admin</item>
+        <item>User</item>
+    </string-array>
+</resources>

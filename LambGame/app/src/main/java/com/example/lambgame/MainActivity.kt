@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             image.setImageResource(R.drawable.lamba_off)
             lamp.setImageResource(R.drawable.lamba_broke)
             mediaPlayer.start()
-            if (lampNum == 4){
+            if (lampNum == 3){
                 button.visibility = View.VISIBLE
             }
             lampNum++
@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
                 1 -> lamp = findViewById(R.id.lamp1)
                 2 -> lamp = findViewById(R.id.lamp2)
                 3 -> lamp = findViewById(R.id.lamp3)
-                4 -> lamp = findViewById(R.id.lamp4)
+                //4 -> lamp = findViewById(R.id.lamp4)
                 else -> lamp = findViewById(R.id.lamp1)
             }
             true
