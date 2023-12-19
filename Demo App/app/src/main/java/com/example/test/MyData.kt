@@ -6,7 +6,8 @@ object MyData
     var logUser = User("","","","","")
 }
 
-class User(var name: String, var email: String, var password: String, var country:String, var role: String)
+class User(
+   var name: String, var email: String, var password: String, var country:String, var role: String)
 {
 
 }

@@ -27,7 +27,6 @@ class RegisterActivity : AppCompatActivity() {
             finish()
         }
         signUp.setOnClickListener{
-
             if (password.text.toString() != confirmPassword.text.toString()){
                 Toast.makeText(this,"Password Not Identical",Toast.LENGTH_SHORT).show()
             }
