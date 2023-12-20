@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
                 val recycle = findViewById<RecyclerView>(R.id.recycle)
                 recycle.adapter = MyAdapter(response.body()!!)
             }
-
             override fun onFailure(call: Call<ArrayList<Products>>, t: Throwable) {
                 Log.d("erro",t.toString())
             }

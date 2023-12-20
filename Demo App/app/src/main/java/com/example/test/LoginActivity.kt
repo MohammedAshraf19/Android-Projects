@@ -25,11 +25,6 @@ class LoginActivity : AppCompatActivity() {
         }
 
 
-
-
-
-
-
         logIn.setOnClickListener{
             val emailText = email.text.toString()
             val passwordText = password.text.toString()
@@ -47,22 +42,8 @@ class LoginActivity : AppCompatActivity() {
                         MyData.logUser.role = user.role
                         logINDone = true
 
-                        // SuperAdmin
-                        if (MyData.logUser.role == "SuperAdmin")
-                        {
-                            val homeIntent = Intent(this, HomeActivity1::class.java)
-                            startActivity(homeIntent)
-                        }
-                        else if (MyData.logUser.role == "Admin")
-                        {
-                            val homeIntent = Intent(this, HomeActivity2::class.java)
-                            startActivity(homeIntent)
-                        }
-                        else
-                        {
-                            val homeIntent = Intent(this, HomeActivity3::class.java)
-                            startActivity(homeIntent)
-                        }
+                        val homeIntent = Intent(this, HomeActivity1::class.java)
+                        startActivity(homeIntent)
                         break
                     }
                 }
